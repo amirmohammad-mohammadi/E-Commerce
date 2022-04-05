@@ -1,0 +1,12 @@
+.product-item-holder {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: .2rem;
+}
+
+.product-item-holder > .product-item-img > img {
+    width: 100px;
+    height: 100px;
+}

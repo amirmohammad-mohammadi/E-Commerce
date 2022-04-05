@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/*------------------------------------- font-family -----------------------------------------------*/
+
+@font-face {
+  font-family: iransans;
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/iransans//iransansWeb(FaNum)_Bold.eot");
+  src: url("./assets/iransans//iransansWeb(FaNum)_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/iransans//iransansWeb(FaNum)_Bold.woff2") format("woff2"),
+    url("./assets/iransans//iransansWeb(FaNum)_Bold.woff") format("woff"),
+    url("./assets/iransans//iransansWeb(FaNum)_Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iransans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/iransans//iransans(FaNum)_Medium.eot");
+  src: url("./assets/iransans//iransansWeb(FaNum)_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/iransans//iransansWeb(FaNum)_Medium.woff2") format("woff2"),
+    url("./assets/iransans//iransansWeb(FaNum)_Medium.woff") format("woff"),
+    url("./assets/iransans//iransansWeb(FaNum)_Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iransans;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/iransans//iransansWeb(FaNum)_Light.eot");
+  src: url("./assets/iransans//iransansWeb(FaNum)_Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/iransans//iransansWeb(FaNum)_Light.woff2") format("woff2"),
+    url("./assets/iransans//iransansWeb(FaNum)_Light.woff") format("woff"),
+    url("./assets/iransans//iransansWeb(FaNum)_Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iransans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets/iransans//iransansWeb(FaNum)_UltraLight.eot");
+  src: url("./assets/iransans//iransansWeb(FaNum)_UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/iransans//iransansWeb(FaNum)_UltraLight.woff2")
+      format("woff2"),
+    url("./assets/iransans//iransansWeb(FaNum)_UltraLight.woff")
+      format("woff"),
+    url("./assets/iransans//iransansWeb(FaNum)_UltraLight.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: iransans;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/iransans//iransansWeb(FaNum).eot");
+  src: url("./assets/iransans//iransansWeb(FaNum).eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/iransans//iransansWeb(FaNum).woff2") format("woff2"),
+    url("./assets/iransans//iransansWeb(FaNum).woff") format("woff"),
+    url("./assets/iransans//iransansWeb(FaNum).ttf") format("truetype");
+}
+
+* {
+  font-family: "iransans", sans-serif;
+}
+
+a {
+  color: black !important;
+  text-decoration: none;
+}
+
+button {
+  padding: 0.3rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+body{
+  /* background: url("/src/img/sean-oulashin-KMn4VEeEPR8-unsplash.jpg"); */
+  /* background-size: cover; */
+}

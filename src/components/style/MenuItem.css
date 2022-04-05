@@ -1,0 +1,7 @@
+.menu-item-holder {
+    list-style-type: none;
+}
+
+.menu-item-holder > li {
+    padding: 0 1rem;
+}
